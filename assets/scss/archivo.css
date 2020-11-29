@@ -1,0 +1,218 @@
+@charset "UTF-8";
+.cabecera {
+  margin: 0%;
+  padding-left: 80px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  background-color: white;
+}
+
+.menú {
+  text-align: right;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  right: 50px;
+  left: 50px;
+}
+
+li {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 120%;
+}
+
+a:link {
+  color: #464749;
+}
+
+a:visited {
+  color: #2b3a7a;
+}
+
+a:hover {
+  color: #875aac;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #4e3a46;
+  background-size: cover;
+  font-size: 100%;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    font-size: 60%;
+  }
+}
+
+.footer_contacto {
+  margin: 10px;
+  padding: 25px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.footer_redes {
+  margin: 10px;
+  padding: 25px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+i {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+i:hover {
+  color: #875aac;
+}
+
+.footer_copyright {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.bienvenida {
+  color: blueviolet;
+  font-family: 'Roboto', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 576px) {
+  .bienvenida {
+    font-size: 100%;
+  }
+}
+
+.carrusel-slide {
+  padding-bottom: 50px;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.leyenda {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 120%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px;
+  padding: 10px;
+  padding-top: 20px;
+  border: white solid 3px;
+}
+
+.display-4 .section-1 {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+}
+
+.display-4 .section-2 {
+  height: 150px;
+  width: 100%;
+  background-color: pink;
+}
+
+.display-4 .section-3 {
+  height: 150px;
+  width: 100%;
+  background-color: #d2c3d6;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: 'Roboto', sans-serif;
+  font-size: 180%;
+  text-align: center;
+  width: 100%;
+}
+
+.card-deck {
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #dfd4f8;
+  color: white;
+  margin: 10px;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.card-title {
+  color: #875aac;
+  font-family: 'Roboto', sans-serif, solid;
+  font-size: solid;
+}
+
+.card-text {
+  color: #4e3a46;
+  font-family: 'Roboto', sans-serif, solid;
+}
+
+.jumbotron {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d6c8e4), to(#c79bdb));
+  background-image: linear-gradient(#d6c8e4, #c79bdb);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.display-4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 140%;
+}
+
+.lead {
+  font-family: 'Roboto', sans-serif;
+  font-size: 120%;
+}
+
+.formulario {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 120%;
+  text-align: center;
+  margin: 10px;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=archivo.css.map */

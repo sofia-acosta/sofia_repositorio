@@ -1,0 +1,120 @@
+@import "header";
+@import "footer";
+$violeta: rgb(138,43,226);
+
+.bienvenida {
+
+    color: $violeta;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    padding: 30px;
+    }
+@media (max-width:576px) {
+    .bienvenida{
+        font-size: 100%;
+
+    }
+}
+    
+.carrusel-slide{
+    padding-bottom: 50px;
+    animation-name: aparecer;
+    animation-duration: 2s;
+
+}
+
+.leyenda {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    border:rgb(255, 255, 255) solid 3px;
+       
+   }
+.display-4{
+    @for $i from 1 through 3 {
+        .section-#{$i} {
+            height: 150px;
+            width: 100%;
+            @if $i == 1 {
+                background-color: white;
+            } @else if $i == 2 {
+                background-color: pink;
+            } @else {
+                background-color: rgb(210, 195, 214);
+            }
+        }
+    }
+}
+
+
+h1{
+    color: $violeta;
+    font-family: 'Roboto', sans-serif;
+    font-size: 180%;
+    text-align: center;
+    width: 100%;
+}
+.card-deck{
+    margin-bottom: 10px;
+}
+.card {
+    background-color: rgb(223, 212, 248);
+    color: white;
+    margin: 10px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+   
+}
+.card-title{
+    color: rgb(135, 90, 172);
+    font-family: 'Roboto', sans-serif, solid;
+    font-size: solid;
+    
+}
+.card-text{
+    color:rgb(78, 58, 70);
+    font-family: 'Roboto', sans-serif, solid;
+
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgb(214, 200, 228), rgb(199, 155, 219));
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    animation-name: aparecer;
+    animation-duration: 3s;
+}  
+.display-4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+
+}
+.lead{
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+
+}
+
+.formulario{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    text-align: center; 
+    margin: 10px;
+    
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

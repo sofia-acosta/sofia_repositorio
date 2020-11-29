@@ -1,0 +1,42 @@
+.footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:white;
+    background-color: rgb(78, 58, 70);
+    background-size: cover;
+    font-size: 100%;
+
+}
+@media (max-width:576px){
+    .footer{
+        font-size: 60%;
+    }
+
+}
+
+.footer_contacto{
+    margin: 10px;
+    padding: 25px;
+    align-self: flex-start;
+   
+}
+
+.footer_redes{
+    margin: 10px;
+    padding: 25px;
+    align-self: flex-start;
+    justify-content: space-between;
+}
+i{
+    justify-content: space-between;
+}
+
+i:hover{
+    color: rgb(135, 90, 172)
+
+}
+
+.footer_copyright{
+
+    align-self: flex-end;
+}

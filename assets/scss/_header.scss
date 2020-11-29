@@ -1,0 +1,36 @@
+.cabecera {
+    margin: 0%;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    background-color: white;    
+}
+
+.menú {
+
+    text-align: right;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    right: 50px;
+    left: 50px;
+ 
+}
+
+li{
+
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+        
+}
+a:link {
+    color: rgb(70, 71, 73);
+}
+a:visited{
+    color: rgb(43, 58, 122);
+}
+a:hover {
+    color: rgb(135, 90, 172);
+}
