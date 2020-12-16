@@ -2,40 +2,47 @@
 @import "footer";
 $violeta: rgb(138,43,226);
 
-.bienvenida {
-
+.text_anaglyphic {
     color: $violeta;
-    font-family: 'Roboto', sans-serif;
-    font-size: 150%;
+    text-shadow: -3px -3px 0 #ddcfec;
     text-align: center;
-    padding: 30px;
-    }
+    font-size: 200%;
+    font-family:  'Cairo', sans-serif;
+}
+.titulos {
+    color: rgb(165, 0, 241);
+    font-family: 'Cairo', sans-serif;
+    text-shadow: -3px -3px 0 #ddcfec;
+    text-align: center;
+    font-size:1 solid;
+    padding: 5%;
+}
+.subtitulos {
+    color: rgb(230, 56, 143);
+    text-shadow: -3px -3px 0 #ddcfec;
+    text-align: center;
+    font-size: 150% solid;
+    font-family: 'Cairo', sans-serif;
+    transition: all 1s;
+}
+.subtitulos:hover{
+    font-size: 180%;
+}
 @media (max-width:576px) {
-    .bienvenida{
-        font-size: 100%;
+    .text_anaglyphic{
+        font-size: 200%;
 
     }
 }
-    
 .carrusel-slide{
-    padding-bottom: 50px;
+    padding: 5%;
+    padding-top: 20%;
     animation-name: aparecer;
-    animation-duration: 2s;
-
+    animation-duration: 2s; 
+    border-style: dashed;  
 }
 
-.leyenda {
-    font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 120%;
-    text-align: center;
-    align-items: center;
-    margin: 30px;
-    padding: 10px;
-    padding-top: 20px;
-    border:rgb(255, 255, 255) solid 3px;
-       
-   }
+   
 .display-4{
     @for $i from 1 through 3 {
         .section-#{$i} {
@@ -52,63 +59,48 @@ $violeta: rgb(138,43,226);
     }
 }
 
-
-h1{
-    color: $violeta;
-    font-family: 'Roboto', sans-serif;
-    font-size: 180%;
-    text-align: center;
-    width: 100%;
-}
 .card-deck{
     margin-bottom: 10px;
 }
 .card {
-    background-color: rgb(223, 212, 248);
-    color: white;
+    background-image:white;
+    border: color rgb(138,43,226);
     margin: 10px;
     animation-name: aparecer;
     animation-duration: 3s;
+
    
 }
-.card-title{
-    color: rgb(135, 90, 172);
-    font-family: 'Roboto', sans-serif, solid;
-    font-size: solid;
-    
-}
+
+
 .card-text{
     color:rgb(78, 58, 70);
-    font-family: 'Roboto', sans-serif, solid;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
 
 }
 
 .jumbotron {
-    background-image: linear-gradient(rgb(214, 200, 228), rgb(199, 155, 219));
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Cairo', sans-serif;
     animation-name: aparecer;
     animation-duration: 3s;
 }  
 .display-4{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 140%;
 
 }
 .lead{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 120%;
+    text-align: center;
+    border: solid rgb(100, 93, 97);
+    padding: 10px;
 
 }
 
-.formulario{
-    background-color:white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 120%;
-    text-align: center; 
-    margin: 10px;
-    
-}
+
 
 @keyframes aparecer{
     0%{
@@ -117,4 +109,24 @@ h1{
     100%{
         opacity: 1;
     }
+}
+.dirección{
+    margin: 10px;
+}
+.linea{
+    color: rgb(100, 93, 97);
+    text-shadow: -3px -3px 0 #ddcfec;
+    text-align: center;
+    font-size:1 solid;
+    font-family: 'Cairo', sans-serif;;
+}
+
+.formulario{
+    background-color:white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 100%;
+    align-items: center;
+    padding: 20px;
+    align-content: space-between;
+    
 }
