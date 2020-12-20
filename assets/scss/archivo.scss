@@ -4,22 +4,22 @@ $violeta: rgb(138,43,226);
 
 .text_anaglyphic {
     color: $violeta;
-    text-shadow: -3px -3px 0 #ddcfec;
+    text-shadow: -2px -2px 0 #caa4f1;
     text-align: center;
-    font-size: 200%;
+    font-size: 70px;
     font-family:  'Cairo', sans-serif;
+    padding: 15px;
 }
 .titulos {
-    color: rgb(165, 0, 241);
-    font-family: 'Cairo', sans-serif;
-    text-shadow: -3px -3px 0 #ddcfec;
+    color:$violeta;
+    text-shadow: -2px -2px 0 #caa4f1;
     text-align: center;
-    font-size:1 solid;
+    font-size: 40px;
     padding: 5%;
+    font-family:  'Cairo', sans-serif;
 }
 .subtitulos {
     color: rgb(230, 56, 143);
-    text-shadow: -3px -3px 0 #ddcfec;
     text-align: center;
     font-size: 150% solid;
     font-family: 'Cairo', sans-serif;
@@ -60,7 +60,7 @@ $violeta: rgb(138,43,226);
 }
 
 .card-deck{
-    margin-bottom: 10px;
+    padding-bottom: 40px;
 }
 .card {
     background-image:white;
@@ -95,8 +95,9 @@ $violeta: rgb(138,43,226);
     font-family: 'Cairo', sans-serif;
     font-size: 120%;
     text-align: center;
-    border: solid rgb(100, 93, 97);
+    border: solid $violeta;
     padding: 10px;
+    color: rgb(100, 93, 97);
 
 }
 
@@ -115,10 +116,10 @@ $violeta: rgb(138,43,226);
 }
 .linea{
     color: rgb(100, 93, 97);
-    text-shadow: -3px -3px 0 #ddcfec;
     text-align: center;
-    font-size:1 solid;
-    font-family: 'Cairo', sans-serif;;
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    padding: 15px;
 }
 
 .formulario{
@@ -129,4 +130,8 @@ $violeta: rgb(138,43,226);
     padding: 20px;
     align-content: space-between;
     
+}
+label{
+    padding: 10px;
+    text-align: center;
 }

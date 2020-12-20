@@ -18,7 +18,8 @@
     margin: 10px;
     padding: 25px;
     align-self: flex-start;
-    font-family: 'Cairo', sans-serif;;
+    font-family: 'Cairo', sans-serif;
+    font-size: 100%;
    
 }
 
@@ -30,16 +31,18 @@
 }
 i{
     justify-content: space-between;
+    padding: 15px;  
 }
 
 i:hover{
-    color: rgb(135, 90, 172)
-
+    color: rgb(135, 90, 172);
 }
 
 .footer_copyright{
 
-    align-self: flex-end;
     font-family: 'Cairo', sans-serif;
-    font-size: 70%;
+    font-size: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
 }
