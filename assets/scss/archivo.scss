@@ -1,5 +1,6 @@
 @import "header";
 @import "footer";
+@import "formulario";
 $violeta: rgb(138,43,226);
 
 .text_anaglyphic {
@@ -122,16 +123,6 @@ $violeta: rgb(138,43,226);
     padding: 15px;
 }
 
-.formulario{
-    background-color:white;
-    font-family: 'Cairo', sans-serif;
-    font-size: 100%;
-    align-items: center;
-    padding: 20px;
-    align-content: space-between;
-    
-}
-label{
-    padding: 10px;
-    text-align: center;
-}
+
+
+

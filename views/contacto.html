@@ -53,39 +53,51 @@
     </header>
 <section>
     <div class="container">
-        <h3 class="titulos">Contacto</h1>
+        <h3 class="titulos">Contacto</h3>
         <div class="formulario">
-            <div class="row">
-                <div class="col-md-4">
-                    <form action="">
-                        <label for="formulario_nombre">Nombre: </label>
-                        <input type="text" placeholder="Ingrese su nombre completo" id="Nombre">
-                 </div>
-                 <div class="col-md-4">
-                    <label for="formulario_telefono">Tel: </label>
-                    <input type="text" placeholder="Ingrese su telefono" id="Telefono">
-                </div>
-                <div class="col-md-4">
-                    <label for="formulario_correo">Mail:</label>
-                    <input type="email"placeholder="Ingrese su correo" id="Email"> 
-                </div>
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nombre</label>
             </div>
-            <div class="row"> 
-                <div class="col-md-12">
-                    <textarea name="mensaje" id="" cols="140" rows="8" placeholder="Dejanos tu consulta!"></textarea>
-                </div>               
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Ingrese nombre completo">
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <input type="submit">
-                </div>
-                <div class="col-md-6">
-                    <input type="reset">
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Teléfono</label>
             </div>
-            </form>
-        </div>
-        </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Ingrese su número">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">E-mail</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Ingrese su e-mail">
+            </div>
+          </div>
+         
+          <div class="row">
+            <div class="col-25">
+              <label for="subject"></label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Ingrese su consulta!" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                <input type="submit" value="Enviar">
+              </div>           
+          </div>
+        </form>
+      </div>
+    </div>    
+        
 </section>
 <section>
     <div class="container">
